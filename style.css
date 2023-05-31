@@ -416,12 +416,11 @@ footer h3 {
 
 .main2 section div {
     margin-top: 2rem;
+
 }
 
 .main2 section div h1 {
     margin-top: 4rem;
-    padding: 0 0 0 6rem;
-    display: flex;
     background-color: #02DAFF;
     color: white;
     text-align: center;
@@ -430,7 +429,7 @@ footer h3 {
 }
 
 .main2 section .text2 {
-    margin: 1rem 4rem;
+    margin: 1rem;
     background-color: white;
     font-size: 1.4rem;
     line-height: 1.8;
@@ -441,6 +440,10 @@ footer h3 {
 
 .text2 .tittle2 {
     margin-top: 2rem;
+}
+
+.text2 li {
+    width: 95%;
 }
 
 @media screen and (max-width: 1296px) {
@@ -551,6 +554,36 @@ footer h3 {
     .open {
         display: block;
     }
+}
+
+@media screen and (max-width: 1180px){
+#plano_inicial { 
+    text-align: center;
+    font-size: 2rem;
+}
+
+#plano_intermediario {
+    text-align: center;
+    font-size: 2rem;
+}
+
+#plano_avancado {
+    text-align: center;
+    font-size: 2rem;
+}
+
+.text2 h2 {
+    font-size: 1rem;
+}
+
+.text2 li {
+    font-size: 0.8rem;
+}
+
+.text2 p {
+    font-size: 0.8rem;
+}
+
 }
 
 
